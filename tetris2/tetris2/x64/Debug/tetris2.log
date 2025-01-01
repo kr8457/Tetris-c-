@@ -1,0 +1,7 @@
+﻿  1.cpp
+C:\Users\Khalid\OneDrive\Desktop\university\tetris\tetris2\tetris2\1.cpp(110,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Khalid\OneDrive\Desktop\university\tetris\tetris2\tetris2\1.cpp(251,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Khalid\OneDrive\Desktop\university\tetris\tetris2\tetris2\1.cpp(251,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Khalid\OneDrive\Desktop\university\tetris\tetris2\tetris2\1.cpp(258,62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Khalid\OneDrive\Desktop\university\tetris\tetris2\tetris2\1.cpp(258,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  tetris2.vcxproj -> C:\Users\Khalid\OneDrive\Desktop\university\tetris\tetris2\x64\Debug\tetris2.exe
