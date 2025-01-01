@@ -59,7 +59,7 @@ The game ends when no space is left for a new piece.
 Pause or restart the game anytime using the controls.
 Preview
 
-Replace images/preview.png with an actual screenshot of the game running.
+
 
 License
 This project is licensed under the MIT License.
