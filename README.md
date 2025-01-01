@@ -1,55 +1,65 @@
-Tetris Game in C++ with SFML
-A classic Tetris game implemented in C++ using the SFML library. This project includes smooth gameplay mechanics, colorful Tetrimino shapes, a scoring system, dynamic level-ups, and background music.
+  Tetris Game in C++ with SFML
+  ![image](https://github.com/user-attachments/assets/87ab2f4c-0277-4deb-bb8d-e69783b07856)
+
+
+
+
+Overview
+This is a classic Tetris Game implemented in C++ using the SFML library. The project provides smooth gameplay with vibrant graphics, dynamic level progression, and immersive background music.
+
+The resources (images and sounds) required for the game are already included in the project folder for convenience.
 
 Features
-Classic Tetris Gameplay: Move, rotate, and drop Tetrimino pieces to fill rows.
-Dynamic Level Progression: Increases game speed as you score more points.
-Background Music: Enjoy in-game background music with options to pause.
-Game Controls: Full keyboard-based controls for seamless gameplay.
-Pause and Restart: Pause the game or restart anytime.
-Game Over Detection: Automatically stops when no space is left for new Tetrimino.
-Controls
-Move Left: Left Arrow Key
-Move Right: Right Arrow Key
-Rotate: Up Arrow Key
-Drop: Down Arrow Key
-Pause: P Key
-Restart: R Key
-Exit: E Key
-Requirements
-SFML Library: Install SFML for handling graphics, textures, fonts, and audio.
-C++ Compiler: Compatible with modern C++ compilers (e.g., GCC, Clang, MSVC).
-Installation and Setup
+Classic Gameplay: Move, rotate, and drop Tetrimino blocks to clear rows.
+Dynamic Difficulty: Game speed increases as you level up.
+Pause and Restart: Pause the game or restart it anytime with keyboard controls.
+Music Integration: Background music enhances the gaming experience.
+Modern UI: Colorful tiles and an easy-to-read score display.
+Game Controls
+Action	Key
+Move Left	Left Arrow
+Move Right	Right Arrow
+Rotate Piece	Up Arrow
+Drop Piece	Down Arrow
+Pause/Resume	P
+Restart Game	R
+Exit Game	E
+Getting Started
+Prerequisites
+SFML Library: Ensure SFML 2.5 or later is installed.
+Visual Studio: Recommended for building and running the project.
+Setup in Visual Studio
 Clone the Repository:
 
 bash
 Copy code
 git clone https://github.com/your-username/tetris-sfml.git
 cd tetris-sfml
-Install Dependencies: Ensure SFML is installed on your system. Refer to the SFML Installation Guide.
+Open in Visual Studio:
 
-Add Resources:
+Open Visual Studio.
+Navigate to File > Open > Project/Solution.
+Open the project .sln file provided in the repository.
+Configure SFML:
 
-Place the Tetrimino tile texture in images/tiles.png.
-Place a font file in fonts/arial.ttf.
-Place a background music file in sounds/th.mp3.
-Compile and Run: Use a C++ compiler to compile the program:
+Ensure SFML is linked in the project settings.
+Copy the sfml-graphics, sfml-window, sfml-system, and sfml-audio DLLs to the executable folder (e.g., Debug or Release).
+Run the Game:
 
-bash
-Copy code
-g++ -o TetrisGame main.cpp -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
-./TetrisGame
+Click on Start (green play button) in Visual Studio.
+Resources in the Project Folder
+Images:
+images/tiles.png: Tileset for Tetrimino blocks.
+Sounds:
+sounds/th.mp3: Background music for the game.
 How to Play
-The objective is to clear rows by arranging Tetrimino pieces.
-Use arrow keys to move or rotate pieces.
-Rows filled completely will disappear, and your score will increase.
-The game speeds up as you progress to higher levels.
+Arrange Tetrimino blocks to fill rows.
+Filled rows will disappear, earning you points.
+The game ends when no space is left for a new piece.
+Pause or restart the game anytime using the controls.
 Preview
 
-Replace preview.png with a screenshot of your game.
-
-Contributing
-Contributions, suggestions, and improvements are welcome! Feel free to open an issue or submit a pull request.
+Replace images/preview.png with an actual screenshot of the game running.
 
 License
 This project is licensed under the MIT License.
